@@ -2,7 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
-Then 
+Run
+
 ```npx prisma init --datasource-provider postgresql```
 
 // Create schema 
@@ -14,7 +15,7 @@ All this can be seen here:
 // How you migrate your changes to your DB
 ```npx prisma migrate dev --name init```
 
-First, run the development server:
+Then, run the development server:
 
 ```bash
 npm run dev
